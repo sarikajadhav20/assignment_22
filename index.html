@@ -12,6 +12,15 @@
     <button type="button" onclick="basketempty()">
         btn2
     </button>
+    <script>
+        const basketElement = document.getElementById('basket');
+        function basketfull() {
+            basketElement.src = "full.png";
+        }
+        function basketempty() {
+            basketElement.src = "empty.png";
+        }
+    </script>
 
 </body>
 </html>
